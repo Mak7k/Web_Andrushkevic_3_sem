@@ -1,0 +1,652 @@
+
+/*************************** 
+**************************** 
+
+.menu {
+    list-style: none; 
+    width: 90%;
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+.menu li a h2{
+    background:#30A8E6; 
+    color:#fff;
+    padding:10px; 
+    font-family: 'Neucha', cursive; 
+    border-radius:4px; 
+    margin-top: 12px;
+}
+.menu li {
+    float:left; 
+    margin-right:20px;
+    
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a h2:hover {
+    background:#1C85BB;
+}
+
+
+**************************** 
+***************************/
+
+
+
+/*************************** 
+**************************** 
+nav{
+
+    background-color: #fdb478;
+
+
+}
+nav ol {
+    list-style: none;
+    
+}
+nav ol li{
+    
+    display: inline;
+    
+    vertical-align:middle;
+}
+nav ol li a, nav ol li img{
+    text-decoration: none;
+    margin: 5px;
+}
+nav ol li h2{
+    display: inline;
+    background:#30A8E6; 
+    color:#fff;
+    padding:10px; 
+    font-family: 'Neucha', cursive; 
+    border-radius:4px; 
+}
+nav li a h2:hover {
+    background:#1C85BB;
+    transition: 0.5s;
+}
+nav li a h2:not(:hover)  {
+    background:#30A8E6;
+    transition: 0.5s;
+}
+
+**************************** 
+***************************/
+
+
+
+
+
+
+.list1 section aside{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list1{
+    margin-top: 25px;
+}
+.list1 li{
+    margin: 5px;
+    
+
+}
+.list1 li h3{
+    font-size: 24px;
+    font-family: 'Neucha', cursive;
+    
+}
+.list1 li h2{
+    font-size: 30px;
+    font-family: 'Neucha', cursive;
+}
+.list1 li p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+.list2{
+    margin-top: 25px
+}
+.list2 dt{
+    font-size: 24px;
+    font-family: 'Neucha', cursive;
+    margin-left: 25px;
+    margin-top: 25px
+}
+.list2 dd{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    
+}
+.list2 li h2{
+    font-size: 30px;
+    font-family: 'Neucha', cursive;
+}
+
+
+footer a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#mn:link {
+    color: #0000d0; 
+}
+#mn:visited {
+    color: #900060; 
+}
+
+
+
+#Rik{
+    float:left ;
+}
+#Morty{
+    float: left;
+    margin-right: 10px;
+}
+#Sammer{
+    float: left ;
+    margin-right: 10px;
+}
+
+
+
+button.c-button {
+    min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676d7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+
+button.c-button:hover {
+    background: #1d49aa;
+}
+
+button.c-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.listb{
+    font-size:24px;
+    font-family: 'Neucha', cursive;
+     padding-right: 10px;
+}
+.listb:hover{
+    color: #3d4634;
+}
+
+
+.inp input , .inp textarea{
+    background-color:#cdec83;
+}
+
+input::placeholder {
+    color: #0066ff;
+}
+textarea::placeholder{
+    color: #0066ff;
+}
+
+
+.try{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.try div h2{
+    border:2px solid #50c519;
+    padding-right: 250 px;
+}
+
+.try div{
+    color: #fff;
+    border: 2px solid #0000d0;
+    padding-top: 100px;
+        padding-left: 250px;
+    padding-bottom: 100px;
+    margin: 10px;
+    background-color: #0066ff;
+    border-radius: 5px;
+}
+
+
+/*************************** 
+**************************** 
+main{
+    border: 4px solid #0066ff;
+}
+article{
+    border: 1px solid #d62008;
+}
+section{
+    border: 1px solid #50c519;
+}
+footer{
+    border: 4px solid #000000;
+}
+
+
+**************************** 
+***************************/
+
+
+
+
+/*************************** 
+**************************** 
+
+input[type="checkbox"] {
+    display: none;
+}
+
+nav label {    
+    display: none;
+    border: 1px solid #fff;   
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav label:hover{
+    color: #f00;
+    border: 1px solid #f00;
+}
+
+@media (max-width: 320px) {
+nav{ 
+        display: block !important;
+     }
+}
+@media only screen and (max-width : 800px){
+    nav ol li{ 
+       display: block !important;
+    }
+    nav ol li h2{ 
+        display: block !important;
+     }
+     input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+}
+**************************** 
+***************************/
+
+
+/*************************** 
+**************************** 
+nav{
+
+    background-color: #fdb478;
+    
+
+}
+nav ol {
+    list-style: none;
+    
+}
+nav ol li{
+    
+    display: inline;
+    
+    vertical-align:middle;
+}
+nav ol li a, nav ol li img{
+    text-decoration: none;
+    margin: 5px;
+    margin-right: 70px;
+}
+nav ol li img{
+    float: left;
+}
+
+nav ol li h2{
+    display: inline;
+    background:#30A8E6; 
+    color:#fff;
+    padding:10px; 
+    font-family: 'Neucha', cursive; 
+    border-radius:4px; 
+}
+nav li a h2:hover {
+    background:#1C85BB;
+    transition: 0.5s;
+}
+nav li a h2:not(:hover)  {
+    background:#30A8E6;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    nav label{
+         display: inline-block;
+         font-size: 30px;
+         margin-bottom: 10px;
+    }
+    nav a{
+        padding: 0 ;
+    }
+    nav > ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+    
+}
+
+
+**************************** 
+***************************/
+
+nav{
+    background: #fdb478;;
+    padding: 1px 5px;   
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-family: 'Neucha', cursive; 
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+   /* text-align: center; */
+    
+}
+
+
+
+nav > ul {
+    padding: 0;
+}
+nav li{
+	padding: 2px;
+    display: inline-block; 
+}
+nav a{
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    padding: 1px 5px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.9s;
+    
+}
+nav a:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+nav ul li a {
+    display: block;
+}
+#one:hover{
+    transform: rotate(0deg);
+}
+#two:hover{
+    transform: rotate(45deg);
+}
+#tree:hover{
+    transform: rotate(45deg);
+}
+#four:hover{
+    transform: rotate(90deg);
+}
+
+
+
+
+input[type="checkbox"] {
+    display: none;
+}
+nav label {    
+    visibility: hidden;
+    padding: 1px 5px;
+    cursor: pointer;
+
+    border: 1px solid transparent;
+}
+
+
+
+nav li::after,nav li::before {
+    content: " ";
+    flex-basis: 15px;
+ }
+
+
+
+
+ .thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 100px;
+  }
+  .thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+
+  }
+
+
+
+@media screen and (max-width: 1000px) {
+    nav label{
+        transition: 0.9s;
+    }
+    nav label:hover{
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    nav img + input {
+        display: flex;
+        align-items: center;
+    }
+
+	nav {
+	text-align: left;
+    display: block;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    nav label{
+        visibility: visible;
+    }
+    nav > ul {
+        display: none;
+		width: 100%;
+		left: 0;
+        text-align: center;
+    }
+	nav li{
+    display: block;
+    vertical-align: top;
+	padding: 2px;
+    margin-top: 5px;
+    opacity: 0.99;
+    
+}
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+        
+    }
+    
+}
+
+.galary img{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.galary  img{
+    transform: scale(0.5);
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+.image-gallery > li {
+    flex-basis: 350px; /* width: 350px; */
+}
+
+.image-gallery li img {
+    object: cover;
+    width:  100%;
+    height:  100%;
+    vertical: middle;
+    border-radius:  5;
+}
+
+.overlay{
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+.image-gallery > li {
+    flex-basis: 350px; /*width: 350px;*/
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .image-gallery::after {
+    content: "";
+    flex-basis: 350px;
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 57, 57, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: #fff;
+    border-radius: 5px;
+    /* center overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* hover */
+  .image-gallery li:hover .overlay {
+    transform: scale(1);
+  }
+}
+
+
+/*************************** 
+**************************** 
+
+.mnr{
+    display: inline;
+}
+
+nav{
+    background-color: #fdb478;
+    padding: 15px 10px;   
+    color: #fff;
+    font-family: 'Neucha', cursive;
+    text-align: center;
+}
+nav > ul {
+   padding: 0;
+}
+nav li{
+    display: inline-block;
+    vertical-align: top;
+}
+nav a{
+    color: #fff;
+    padding: 5px ;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    margin: 15px;
+}
+nav a:hover{
+    border: 1px solid #fff;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+nav label {    
+    display: none;
+    border: 1px solid #fff;   
+    padding: 5px ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav label:hover{
+    color: #f00;
+    border: 1px solid #f00;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    nav label{
+         display: inline-block;
+         font-size: 30px;
+         margin-bottom: 10px;
+    }
+    nav a{
+        padding: 0 ;
+    }
+    nav > ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+    
+}
+
+**************************** 
+***************************/

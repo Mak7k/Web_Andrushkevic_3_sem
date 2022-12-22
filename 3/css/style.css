@@ -1,0 +1,110 @@
+.menu {
+    list-style: none; /*убираем маркеры списка*/
+    width: 90%;
+    margin: 0 auto; /*убираем отступы*/
+    margin-top: 20px;
+}
+.menu li a h2{
+    background:#30A8E6; /*добавляем фон к пункту меню*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:10px; /*добавляем отступ*/
+    font-family: 'Neucha', cursive; /*меняем шрифт*/
+    border-radius:4px; /*добавляем скругление*/
+    margin-top: 12px;
+}
+.menu li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:20px; /*Добавляем отступ у пунктов меню*/
+    
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a h2:hover {
+    background:#1C85BB;/*добавляем эффект при наведении*/
+}
+nav{
+    background-color:#ffa200;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    }
+
+
+.list1 li{
+    margin: 5px;
+}
+.list1 li h3{
+    font-size: 24px;
+    font-family: 'Neucha', cursive;
+}
+.list1 li h2{
+    font-size: 30px;
+    font-family: 'Neucha', cursive;
+}
+.list1 li p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+
+.list2 dt{
+    font-size: 24px;
+    font-family: 'Neucha', cursive;
+    margin-left: 25px;
+}
+.list2 dd{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    
+}
+.list2 li h2{
+    font-size: 30px;
+    font-family: 'Neucha', cursive;
+}
+
+footer a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+aside{
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    
+    font-style: italic;
+    color: #29627e;
+}
+
+p:active{
+    color: rgb(255, 60, 0);
+}
+
+#mn:link {
+    color: #0000d0; 
+}
+#mn:visited {
+    color: #900060; 
+}
+
+
+
+#Rik{
+    float:left ;
+}
+#Morty{
+    float: right;
+    margin-right: 331px;
+}
+#Sammer{
+    float: left ;
+    margin-right: 10px;
+}
+
+.picture li{
+    position: relative;
+    left: 100px;
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}

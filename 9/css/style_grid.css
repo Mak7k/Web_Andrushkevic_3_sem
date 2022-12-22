@@ -1,0 +1,358 @@
+
+
+/********************************
+
+.page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 1em;
+}
+
+.article {
+    padding: 1em;
+    background: #fff;
+    box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.1),
+    0 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+header{
+    grid-column: span 10;
+}
+
+section{
+    grid-row: span 100;
+}
+
+
+
+********************************/
+
+
+.page{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4,250px);
+    grid-template-areas:   
+        "header header header"
+        "section navigation article"
+        "section main article"
+        "footer footer footer";
+    grid-gap: 1em;
+}
+
+.article{
+    background-color: rgb(201, 168, 168);
+}
+
+header{
+    grid-area: header;
+
+}
+
+section{
+    grid-area: section;
+}
+
+nav{
+    grid-area: navigation;
+}
+
+article{
+    grid-area: article;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+@media (max-width: 1000px) {
+    .page{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: repeat(4,250px);
+        grid-template-areas:   
+            "header header header"
+            "navigation navigation navigation"
+            "section main main"
+            "article footer footer";
+        grid-gap: 1em;
+    
+    }
+}
+
+@media (max-width: 640px) {
+    .page{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7,250px);
+        grid-template-areas:   
+            "header"
+            "navigation"
+            "main"
+            "main"
+            "section"
+            "article"
+            "footer";
+        grid-gap: 1em;
+    
+    }
+}
+
+
+
+
+
+.contain {
+    width: 1500px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+  @media (min-width: 600px) {
+    .contain {
+      padding: 0;
+    }
+  }
+  
+  h3,
+  ul {
+    margin: 0;
+  }
+  
+  h3 {
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: 3px solid gold;
+  }
+  
+  input,
+  textarea,
+  .er {
+    width: 100%;
+    border: 1px solid #000;
+  }
+  
+  .wrapper {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  .wrapper > * {
+    padding: 1em;
+  }
+  @media (min-width: 700px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    .wrapper > * {
+      padding: 2em 2em;
+    }
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  .form {
+    background: rgb(15, 15, 15);
+  }
+  
+  form {
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  form label {
+    display: block;
+    color: white;
+  }
+  form p {
+    margin: 30px;
+  }
+  
+  .full-width {
+    grid-column: 1 / 3;
+  }
+  
+  .er,
+  input,
+  textarea {
+    padding: 1em;
+  }
+  
+  .er {
+    background: rgb(39, 28, 201);
+    width: 100%;
+    border: 0;
+    color: white;
+  }
+  .er:hover, .er:focus {
+    background: gold;
+    outline: 0;
+  }
+
+
+
+  .but{
+    width: 120px;
+    height: 110px;
+    margin: 100px;
+    border-radius: 100%;
+    background-color: white;
+  }
+
+  #heart {
+    width:100px; 
+    height:90px;
+    margin-top:10px; 
+}
+#heart:before {
+  position: absolute; 
+  content: ""; 
+  left: 50px; 
+  top: 0; 
+  width: 52px; 
+  height: 80px; 
+  background: rgb(94, 94, 94); /* assign a nice red color */
+  border-radius: 50px 50px 0 0; /* make the top edge round */ 
+}
+
+#heart:before {
+  -webkit-transform: rotate(-45deg); /* 45 degrees rotation counter clockwise */
+     -moz-transform: rotate(-45deg); 
+      -ms-transform: rotate(-45deg); 
+       -o-transform: rotate(-45deg); 
+          transform: rotate(-45deg); 
+  -webkit-transform-origin: 0 100%; /* Rotate it around the bottom-left corner */
+     -moz-transform-origin: 0 100%; 
+      -ms-transform-origin: 0 100%; 
+       -o-transform-origin: 0 100%; 
+          transform-origin: 0 100%;
+}
+
+#heart:after { 
+  left: 0; /* placing the right part properly */
+  -webkit-transform: rotate(45deg); /* rotating 45 degrees clockwise */
+     -moz-transform: rotate(45deg); 
+      -ms-transform: rotate(45deg); 
+       -o-transform: rotate(45deg); 
+          transform: rotate(45deg); 
+  -webkit-transform-origin: 100% 100%; /* rotation is around bottom-right corner this time */
+     -moz-transform-origin: 100% 100%; 
+      -ms-transform-origin: 100% 100%; 
+       -o-transform-origin: 100% 100%; 
+          transform-origin :100% 100%; 
+}
+
+#heart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  margin-top: 10px;
+}
+
+#heart::before, #heart::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 52px;
+  height: 80px;
+  border-radius: 50px 50px 0 0;
+  background: rgb(83, 83, 83);
+}
+
+#heart::before {
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+#heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+
+.like-container{filter: url('#filter');
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(50%, -50%);
+}
+.like-cnt{  
+  position: absolute; 
+  cursor: pointer;
+  left: 50%; 
+  top: 100%; 
+  transform: translate(50%, -50%);     background: rgba(255,255,255,0.3);     width: 60px; 
+  height: 60px;  
+  border-radius: 50%;
+  text-align: center;
+  line-height: 75px;
+  z-index: 10;
+}
+.like-btn{
+  color: #fff;
+}
+
+.gp-header{font-family: georgia; font-size: 40px; color: #ddca7e; font-style: italic; text-align: center; margin-top: 31px;}
+.gp-footer{position: fixed; color: #fff; bottom: 10px; left: 50%; font-family: georgia; font-style: italic; transform: translateX(-50%);}
+.gp-footer .soc_icons{display: inline-block; color: #ddca7e; margin: 0px 0px;}
+
+
+::-moz-selection { background: transparent;}
+::selection {background: transparent;}
+
+
+
+
+
+.like {
+text-align: center;
+z-index: 5;
+}
+
+#like_button {
+font-size: 25px;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 100px;
+width: 100px;
+}
+
+#like_button:hover {
+cursor: pointer;
+}
+
+.love {
+margin-top: -75px;
+height: 1000px;
+z-index: 1;
+}
+
+.love span {
+background-image: url(../img/heart.png);
+width: 100px;
+height: 100px;
+position: absolute;
+visibility: hidden;
+pointer-events: none;
+background-size: cover;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}

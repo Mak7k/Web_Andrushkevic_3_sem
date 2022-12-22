@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web-page</title>
+    <link rel="shortcut icon" href="img/icons8-рик-санчес-100.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Styles of texts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color:#FFE4B5;
+            width: 85%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- НАВИГАЦИЯ -> КАРТИНКА + ЛОГОГОТИП + КЛАВИШИ -->
+        <a href="https://rickandmorty.com/?a"><img src="https://i.pinimg.com/originals/3c/e7/3e/3ce73e70f574244de4211dc64a6a043e.jpg" alt="Rik and Morty" width="1500" height="500"></a>
+        <nav >
+            <ol type="I" class="menu">
+                <li> <img src="https://blog.blackmilkclothing.com/wp-content/uploads/2019/01/RAM__LOGO_4C_S3SG.png" width="210" height="80"/></li>
+                <li> <a href="#1"><h2>Основные персонажи</h2></a> </li>
+                <li> <a href="#2"><h2>Второстепенные персонажи</h2></a> </li>
+                <li> <a href="#3"><h2>Список объектов</h2></a> </li>
+                <li> <a href="#4"><h2>Контакты</h2></a> </li>
+                <li style="display: none;">Невидимка!</li>
+            </ol>
+        </nav>
+
+    <main>
+    <ol type="I">
+
+        <aside>
+            <img style="position: fixed; right: 10px; top: 200px" src="img/Без имени-1.jpg" alt="Реклама">
+        </aside>
+        
+
+
+        <section class="list1" style="margin-top: 135px">
+            <li><h2 id = "1"> Основные персонажи</h2></li>
+        <ul>
+            <li><h3>Рик Санчес</h3>
+                <img id="Rik" src="https://slovnet.ru/wp-content/uploads/2018/08/20-41.jpg" alt="Rik" width="100" height="120">
+                <p>Один из главных героев шоу, чьё имя упомянуто в его названии. <br>
+                Он — учёный гений, страдающий алкоголизмом, также очень опрометчив, <em>социопат</em> , чьё поведение заставляет нервничать свою дочь по поводу безопасности её сына, Морти. <br>
+                Крайне циничен, ворчлив, эгоистичен но не лишен чувства юмора.</p>
+            </li>
+            <li><img id="Morty" src="https://i.pinimg.com/736x/ba/84/47/ba8447e1c172156910f2e75e5991059d.jpg" alt="Morty" width="120" height="140">
+                <h3 style="margin-top: 70px;">Морти Смит</h3>
+                <p>Один из двух главных героев шоу. Внук Рика Санчеса, мальчик 14 лет, с небольшой задержкой в развитии и постоянным чувством беспокойства. 
+                Морти учится в средней школе <em>Гарри Херпсона</em>  вместе со своей старшей сестрой, Саммер.</p>
+            </li>
+            <li><h3 style="margin-top: 65px;">Саммер Смит</h3>
+                <img id="Sammer" src="https://decider.com/wp-content/uploads/2017/09/rick-and-morty-308-2.jpg" alt="Sammer" width="120" height="120">
+                <p>Старшая сестра Морти, 17 лет.
+                Типичная девочка-подросток, считающая свою семейную жизнь неблагополучной.</p>
+                <p>Во последних сезонах пытается втерется в доверие Рику, чтобы Морти завидовал сестре</p>
+            </li>
+            <li><h3 style="margin-top: 90px;">Бет Смит</h3>
+                <p>Дочь Рика, мать Морти и жена Джерри. 34 года. Работает кардиохирургом-ветеринаром — преимущественно лошадиным.
+                Имеет проблемы с алкоголем, считает себя неполноценной.</p>
+            </li>
+            <li><h3>Джерри Смит</h3>
+                <p>Ричард Джеральд "Джерри" Смит
+                Отец Морти, муж Бетти. Наивный и глупый человек с кучей комплексов.
+                Работает во второсортном рекламном агентстве, <br> из-за чего часто сидит без работы. Поклонник фильма <cite>"Титаник"</cite> .</p>
+            </li>
+        </ul>
+        </section>
+       
+
+
+        <section class="list1" style="margin-top: 25px">
+            <li><h2 id = "2">Второстепенные персонажи</h2></li>
+        <ul>
+            <li><h3>Трэйси Марроу</h3>
+                <p>Знаменитый рэпер с Земли, на самом деле являющийся нестареющим блуждающим пришельцем из времен под названием <u>Water-T</u> .</p>
+            </li>
+            <li><h3>Абрадольф Линклер</h3>
+                <p>Результат эксперимента в эпизоде <u>"Ricksy Business"</u>. Был создан, когда Рик попытался создать идеального лидера путем скрещивания ДНК<sub>Авраама Линкольна и Адольфа Гитлера</sub> .</p>
+            </li>
+            <li><h3>Брэд</h3>
+                <p>Ученик Гарри Херпсонской<sup>1634</sup> старшей школы, парень Джессики.</p>
+            </li>
+        </ul>
+        </section>
+
+
+        <section class="list2" style="margin-top: 25px">
+            <li><h2 id = "3">Список объектов (термины)</h2></li>
+        <dl>
+            <dt><strong>Брейналайзер</strong> </dt>
+            <dd>Устройство, которое использовал Корнвелиус Дэниел, чтобы извлечь из мозга Рика Санчеза формулу <abbr title="также по параллельным вселенным">путешествий во времени</abbr> .</dd>
+
+            <dt><strong>Коробка с Мисиксами</strong></dt>
+            <dd>Коробка для создания <b>Мисиксов</b></dd>
+            <dd>В одной из серий появился альтернативная версия этой коробки - коробка с Фрисиксами</dd>
+
+            <dt><strong>Мегадеревья</strong></dt>
+            <dd>Это вид деревьев, растущих в <i> Измерении 35-C</i>. Они были показаны в эпизоде <blockquote>​​«Пилот» и в эпизоде ​​«Сказки из Цитадели»</blockquote> .</dd>
+
+            <dt><strong>Портальная пушка</strong></dt>
+            <dd> 
+                <pre> Была сделана Риком Санчезом после создания обычной портальной пушки. 
+ Благодаря ей её владелец мог перемещаться в другие измерения а так же в пространстве на неограниченное расстояние.
+ Технология уникальна, данной технологией владеют только Рики.
+            </pre></dd>
+            <dd>Из-за данного устройства Рик Санчез потерял свою жену и дочу...</dd>
+
+            <dt><strong>Уменьшающий луч</strong></dt>
+            <dd>Сложное устройство, способное уменьшить человека до микроскопических размеров, впервые показано в серии <b> «Анатомический парк»</b>.</dd>
+        </dl>
+        </section>
+       
+        <section>
+            <h2 style="font-size: 30px; font-family: 'Neucha', cursive;">Картинки</h2>
+            <ul class = "picture" style="list-style: none;">
+                <li><img src="img/3F3F3F3F3F3F_001.webp" alt="num1" width="300" height="350"></li>
+                <li><img src="img/3F3F3F3F3F3F3F_002.webp" alt="num1"width = "650" height="400"></li>
+            </ul>
+        </section>
+
+
+    </ol>
+
+
+
+    <footer>
+        <article>
+            <h1 id = "4" style="margin-top:25px; font-size: 30px;font-family: 'Neucha', cursive; margin-bottom: 5px;">Контакты</h1>
+        <address>
+            <h2><a id = "mn" href="https://rickandmorty.com/?a">Ссылка на официальный сайт adult swim</a> <h2>
+            <p><a href="mailto:sendemail@gmail.com">Написать письмо</a></p>
+        </address>
+
+
+        <h2 style="margin-top:25px; font-size: 30px;font-family: 'Neucha', cursive; "> Оставьте отзыв</h2>
+
+        <form action="" method="post" style="padding-bottom: 10px;" class="inp">
+            <p>
+                <label for="telephone" ><strong class="listb"> Введите номер телефона: </strong></label>
+                <input type="tel" pattern="[0-1]{10,11}" placeholder = "+7-(***)-***-****" name="telephone" id="telephone">
+            </p>
+            <p>
+                <label  name ="email"><strong class="listb"> Введите почту: </strong></label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="password"><strong class="listb">Введите пароль </strong></label>
+                <input type="password" required name="pass" id="pass">
+            </p>
+            <p>
+                <label ><strong class="listb"> Понравилась ли вам статья? </strong><input type="checkbox" checked name="checkbox" ></label>
+            </p>
+            <p>
+                <label for="datetime-local"><strong class="listb"> Выберите дату: </strong></label>
+                <input type="datetime-local" min="2022-01-01" max="2024-01-01" name="date" id="date">
+            </p>
+            <p>
+                <label for="file"><strong class="listb"> При необходимости прикрепите файл c отзывом: </strong></label>
+                <input type="file" name="file" id="file">
+            </p>
+            <p>
+                <label for="t"><strong class="listb"> Что можно добавить? </strong></label>
+                <input type="text" name="t" id="t">
+            </p>
+            <p>
+                <label for="about"><strong class="listb"> Напишите тут свой отзыв <br> (чтобы не прикреплять файл) <br></strong></label>
+                <textarea id="about" name="about" rows="7" cols="35" minlength="50px" maxlength="150px" placeholder="Введите текст тут..." required></textarea>
+            </p>
+            <p class="listb">
+                <strong>
+                    Выберите оценку статьи от 1 до 3
+                </strong>
+                
+            </p>
+            <p>
+                <label for="radio"><strong class="listb"> 1 - </strong></label>
+                <input type="radio" name="1" id="radio">
+            </p>
+            <p>
+                <label for="radio1"><strong class="listb"> 2 - </strong></label>
+                <input type="radio" name="1" id="radio">
+            </p>
+            <p>
+                <label for="radio1"><strong class="listb"> 3 - </strong></label>
+                <input type="radio" name="1" id="radio">
+            </p>
+            <p>
+                <label for="sub"><strong class="listb"></strong></label>
+                <input type="submit" name="sub" id="sub">
+            </p>
+        </form>
+        <button class="c-button" style="margin-bottom: 10px;">
+            Add accaunt
+        </button>
+
+
+        <form style=" margin-right: 500px; margin-bottom: 10px">
+            <fieldset>
+                <legend class="listb">Выберите любимого персанажа</legend>
+            <p>
+                <input type="radio" name="size" id="size_1" value="small">
+                <label for="size_1"class="listb">Рик</label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_2" value="medium">
+                <label for="size_2"class="listb">Морти</label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_3" value="large">
+                <label for="size_3"class="listb">Саммер</label>
+            </p>
+            </fieldset>
+        </form>
+
+    <p for="pp"class="listb" >Выбери персонажей</p>
+    <select name="pets" id="pp" style="margin-bottom: 550px;" multiple required size="2">
+    <option value=""class="listb">--Выбери персонажей через список--</option>
+    <option value="rik"class="listb">Рик</option>
+    <option value="Morty"class="listb">Морти</option>
+    <option value="summer"class="listb">Саммер</option>
+    </select>
+
+
+    <iframe width="650" height="420" src=https://www.youtube.com/embed/WMkST1CDfkA frameborder="0">
+        <video controls preload="auto" poster="https://storage.myseldon.com/news-pict-98/985AB66238F45597EB2655BAD862CEF4" src=https://www.youtube.com/embed/WMkST1CDfkA>
+
+        </video>
+    </iframe>
+
+        </article>
+    </footer>
+
+
+    </main>
+</body>
+</html>
